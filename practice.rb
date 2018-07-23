@@ -1,3 +1,4 @@
-puts "100".to_f
-puts "10".to_i
-puts 100.00.to_s
+puts "The girl likes pizza!"
+sentence = "The girl likes pizza!"
+puts sentence.gsub('T','O').gsub('g','p').gsub('r','K')
+
